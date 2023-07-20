@@ -85,8 +85,8 @@ public class CollectionsExercises {
         //  - add {6, Rust} entry to the map
         hashmaps.put(6, "Rust");
         //  - determine the set of keys from the map and print it on the screen
-        //  - determine the set of keys from the map and print it on the screen
         System.out.print(hashmaps.keySet());
+        //  - determine the set of keys from the map and print it on the screen
         System.out.print(hashmaps.values());
         //  - determine whether the map contains "English" as a language and print the result on the screen
         System.out.print(hashmaps.containsValue("English"));
