@@ -1,11 +1,15 @@
-package com.cbfacademy;
+package test.java.com.cbfacademy;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.AfterEach;
+import org.junit.jupiter.api.BeforeEach;
+import main.java.com.cbfacademy.*;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.hamcrest.MatcherAssert.assertThat;
+
 
 @DisplayName(value = "Basic Test Suite")
 public class AppTest {
@@ -13,8 +17,9 @@ public class AppTest {
     @Test
     @DisplayName("creates the app")
     public void createsAnApp() {
-        final App app = new App();
 
+        final App app = new App();
         assertThat(app, is(notNullValue()));
     }
+
 }
