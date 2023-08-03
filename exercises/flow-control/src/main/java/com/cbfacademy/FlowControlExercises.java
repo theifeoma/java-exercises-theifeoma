@@ -1,4 +1,4 @@
-package com.cbfacademy;
+package main.java.com.cbfacademy;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,6 +9,22 @@ public class FlowControlExercises {
     public List<String> fizzBuzz(List<Integer> numbers) {
         // TODO - Implement this method such that
         //  it creates a list where for each element of the input list ${numbers}
+        int length = numbers.size();
+        for(int i = 0; i < length; i++)
+        {
+            if(i % 3 == 0){
+                System.out.println("Fizz");
+            }
+            else if(i % 3 == 5){
+                System.out.println("Buzz");
+            }
+            else if(i % 3 == 0 & i % 5 == 0){
+                System.out.println("Fizz Buzz");
+            }
+            else{
+                System.out.println(i);
+            }
+        }
         //  - if the ${element} is divisible by 3, it adds “Fizz” to the list
         //  - if the ${element} is divisible by 5, it adds “Buzz” to the list
         //  - if the ${element} is divisible by both 3 and 5, it adds “FizzBuzz” to the list

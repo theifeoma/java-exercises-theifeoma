@@ -1,4 +1,4 @@
-package com.cbfacademy;
+package test.java.com.cbfacademy;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
