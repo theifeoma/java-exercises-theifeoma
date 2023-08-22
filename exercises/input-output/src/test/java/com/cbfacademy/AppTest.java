@@ -1,5 +1,7 @@
-package com.cbfacademy;
+package test.java.com.cbfacademy;
 
+
+import main.java.com.cbfacademy.App;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
@@ -13,8 +15,8 @@ public class AppTest {
     @Test
     @DisplayName("creates the app")
     public void createsAnApp() {
-        final App app = new App();
 
+        final App app = new App();
         assertThat(app, is(notNullValue()));
     }
 }
