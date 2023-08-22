@@ -39,7 +39,6 @@ public class ReadFile {
                 writer.println(output);
                 output = lineReader.readLine();
             }
-
             // is closed with the try block
             writer.close();
             outputStreamWriter.close();
