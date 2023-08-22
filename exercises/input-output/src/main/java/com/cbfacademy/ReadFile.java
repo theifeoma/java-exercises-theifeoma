@@ -8,7 +8,6 @@ public class ReadFile {
     }
 
     public void Read(String str){
-        //String str = "src/main/resources/exercise.txt";
         try(
             FileInputStream file = new FileInputStream(str);
             InputStreamReader streamReader = new InputStreamReader(file);
@@ -26,7 +25,6 @@ public class ReadFile {
     }
 
     public void ReadWrite(String outputFile, String inputFile){
-        //String str = Read(filename);
         try(
                 FileInputStream file = new FileInputStream(inputFile);
                 InputStreamReader streamReader = new InputStreamReader(file);
